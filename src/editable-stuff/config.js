@@ -39,8 +39,8 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/profile.jpg"),
-  imageSize: 375,
+  imageLink: require("../assets/img/profile.png"),
+  imageSize: 325,
   message:
     "My name is Nilay. I’m a graduate of 2023 from Georgia Institute of Technology with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
