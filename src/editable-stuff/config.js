@@ -46,6 +46,28 @@ const about = {
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
+const experiences = {
+    show: true,
+    heading: "Experiences",
+    data: [
+        {
+            role: 'Freelance Website Developer',// Here Add Company Name
+            companylogo: require('../assets/img/wordpressLogo.png'),
+            date: 'March 2024 – Present',
+        },
+        {
+            role: 'Institute of Nuclear Power Operations - Software Engineering Intern',
+            companylogo: require('../assets/img/inpoLogo.png'),
+            date: 'Jan 2022 – May 2022',
+        },
+        {
+            role: 'Datascan - Software Engineering Intern',
+            companylogo: require('../assets/img/DataScan_Logo.png'),
+            date: 'June 2019 – August 2019',
+        }
+    ]
+}
+
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
@@ -118,22 +140,7 @@ const getInTouch = {
   email: "hashirshoaeb@gmail.com",
 };
 
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
+
 
 // Blog SECTION
 // const blog = {
