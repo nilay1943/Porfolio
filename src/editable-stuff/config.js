@@ -39,7 +39,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/pfp.png"),
+  imageLink: require("../editable-stuff/pfp.jpg"),
   imageSize: 375,
   message:
     "My name is Nilay. I’m a graduate of 2023 from Georgia Institute of Technology with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering.",
@@ -54,9 +54,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "nilay1943", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["TwitterGPTBot", "CucumberCrashCourse", "Battleship", "WayvSageWeb"],
 };
 
 // Leadership SECTION
