@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "nilay1943", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 0,
   specificRepos: ["TwitterGPTBot", "CucumberCrashCourse", "Battleship", "WayvSageWeb"],
 };
 
